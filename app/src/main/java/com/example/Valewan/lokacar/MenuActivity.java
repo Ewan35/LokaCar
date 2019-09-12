@@ -55,16 +55,4 @@ public class MenuActivity extends AppCompatActivity {
         Intent intent = new Intent (this, ListeClientsActivity.class);
         startActivity(intent);
     }
-
-    public void clicChiffreAffaire (View view) {
-
-        Intent intent = new Intent (this, ChiffreAffaireActivity.class);
-        startActivity(intent);
-    }
-
-    public void clicLocations (View view) {
-
-        Intent intent = new Intent (this, ListeLocationsActivity.class);
-        startActivity(intent);
-    }
 }

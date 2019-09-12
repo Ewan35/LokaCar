@@ -6,15 +6,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
 
-import com.example.jocelynjoubert2017.lokacar.entities.Client;
-import com.example.jocelynjoubert2017.lokacar.entities.Location;
-import com.example.jocelynjoubert2017.lokacar.entities.Marque;
-import com.example.jocelynjoubert2017.lokacar.entities.Modele;
-import com.example.jocelynjoubert2017.lokacar.entities.Vehicule;
+import com.example.Valewan.lokacar.entities.Client;
+import com.example.Valewan.lokacar.entities.Location;
+import com.example.Valewan.lokacar.entities.Marque;
+import com.example.Valewan.lokacar.entities.Modele;
+import com.example.Valewan.lokacar.entities.Vehicule;
 
 import java.util.Date;
 
-import static com.example.jocelynjoubert2017.lokacar.dal.AppDataBase.getDataBase;
+import static com.example.Valewan.lokacar.dal.AppDataBase.getDataBase;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -26,17 +26,6 @@ public class MainActivity extends AppCompatActivity {
         new Thread(new Runnable() {
             @Override
             public void run() {
-                getDataBase(MainActivity.this).agenceDAO().nukeTable();
-                getDataBase(MainActivity.this).agenceDAO().insert(new Agence("Nantes_Route_de_Paris", "17 Route de Paris", "44300", "Nantes", "02 40 52 08 08"));
-                getDataBase(MainActivity.this).agenceDAO().insert(new Agence("Nantes_Aéroport", "Aéroport Nantes Atlantique", "44340", "Bouguenais", "02 40 84 01 39"));
-                getDataBase(MainActivity.this).agenceDAO().insert(new Agence("Nantes_Gare_Sud", "325 Rue Marcel Paul", "44000", "Nantes", "02 40 47 19 38"));
-                getDataBase(MainActivity.this).agenceDAO().insert(new Agence("Nantes_Champ_de_Mars", "29 Rue De Fleurus", "44000", "Nantes", "02 40 89 40 88"));
-
-                getDataBase(MainActivity.this).gerantDAO().nukeTable();
-                getDataBase(MainActivity.this).gerantDAO().insert(new Gerant("Nicolas", "Guittet", "nico@gmail.com", "rendlaballe", 1));
-                getDataBase(MainActivity.this).gerantDAO().insert(new Gerant("Johnny", "Depp", "depp@gmail.com", "johnnypirate", 2));
-                getDataBase(MainActivity.this).gerantDAO().insert(new Gerant("Grigor", "Grabovoi", "grigor@gmail.com", "sanchez", 3));
-                getDataBase(MainActivity.this).gerantDAO().insert(new Gerant("Piseth", "Ly", "ly@gmail.com", "didierproud", 4));
 
                 getDataBase(MainActivity.this).marqueDAO().nukeTable();
                 getDataBase(MainActivity.this).marqueDAO().insert(new Marque("Renault"));

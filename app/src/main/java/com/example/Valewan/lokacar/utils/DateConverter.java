@@ -1,4 +1,4 @@
-package com.example.jocelynjoubert2017.lokacar.utils;
+package com.example.Valewan.lokacar.utils;
 
 import java.util.Date;
 

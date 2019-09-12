@@ -19,8 +19,6 @@ package="com.example.Valewan.lokacar">
     <activity android:name=".MenuActivity"></activity>
     <activity android:name=".ListeVoituresActivity"></activity>
     <activity android:name=".ListeClientsActivity"></activity>
-    <activity android:name=".ChiffreAffaireActivity"></activity>
-    <activity android:name=".ListeLocationsActivity"></activity>
     <activity android:name=".AjouterVoitureActivity"></activity>
 
 </application>
