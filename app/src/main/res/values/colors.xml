@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color> <!-- fond-->
+    <color name="colorPrimaryDark">#000000</color> <!--bandeau notifications-->
+    <color name="colorAccent">#A7DBD8</color> <!-- pour les chexbox...-->
+    <color name="activityBackground">#0000ff</color>
+</resources>
