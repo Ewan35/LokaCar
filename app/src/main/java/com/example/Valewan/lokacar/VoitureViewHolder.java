@@ -1,4 +1,4 @@
-package com.example.jocelynjoubert2017.lokacar;
+package com.example.Valewan.lokacar;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.View;

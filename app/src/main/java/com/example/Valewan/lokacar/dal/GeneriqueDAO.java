@@ -1,4 +1,4 @@
-package com.example.jocelynjoubert2017.lokacar.dal;
+package com.example.Valewan.lokacar.dal;
 
 import android.arch.persistence.room.Delete;
 import android.arch.persistence.room.Insert;

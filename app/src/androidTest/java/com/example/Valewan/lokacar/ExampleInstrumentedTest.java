@@ -1,4 +1,4 @@
-package com.example.jocelynjoubert2017.lokacar;
+package com.example.Valewan.lokacar;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

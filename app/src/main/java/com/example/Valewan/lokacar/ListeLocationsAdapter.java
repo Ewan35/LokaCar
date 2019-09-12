@@ -1,12 +1,12 @@
-package com.example.jocelynjoubert2017.lokacar;
+package com.example.Valewan.lokacar;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.jocelynjoubert2017.lokacar.entities.Client;
-import com.example.jocelynjoubert2017.lokacar.entities.Location;
+import com.example.Valewan.lokacar.entities.Client;
+import com.example.Valewan.lokacar.entities.Location;
 
 import java.util.Date;
 import java.util.List;

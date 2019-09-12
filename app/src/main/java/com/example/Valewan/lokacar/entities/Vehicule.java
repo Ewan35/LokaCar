@@ -1,4 +1,4 @@
-package com.example.jocelynjoubert2017.lokacar.entities;
+package com.example.Valewan.lokacar.entities;
 
 
 import android.arch.persistence.room.ColumnInfo;
@@ -14,8 +14,7 @@ import java.util.List;
 
 @Entity(tableName = "vehicules",
         foreignKeys = {
-                @ForeignKey(entity = Modele.class, parentColumns = "id", childColumns = "modele_id"),
-                @ForeignKey(entity = Agence.class, parentColumns = "id", childColumns = "agence_id")
+                @ForeignKey(entity = Modele.class, parentColumns = "id", childColumns = "modele_id")
 
         })
 public class Vehicule {
@@ -43,9 +42,6 @@ public class Vehicule {
 
     @Ignore
     private Modele modele;
-
-    @Ignore
-    private Agence agence;
 
     @Ignore
     public Vehicule() {
@@ -137,14 +133,6 @@ public class Vehicule {
 
     public void setMarque(Marque marque) {
         this.marque = marque;
-    }
-
-    public Agence getAgence() {
-        return agence;
-    }
-
-    public void setAgence(Agence agence) {
-        this.agence = agence;
     }
 
     @Override

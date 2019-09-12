@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-package="com.example.jocelynjoubert2017.lokacar">
+package="com.example.Valewan.lokacar">
 
 <application
     android:allowBackup="true"

@@ -1,4 +1,4 @@
-package com.example.jocelynjoubert2017.lokacar;
+package com.example.Valewan.lokacar;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -13,10 +13,10 @@ import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
 
-import com.example.jocelynjoubert2017.lokacar.dal.AppDataBase;
-import com.example.jocelynjoubert2017.lokacar.dal.dao.ClientDAO;
-import com.example.jocelynjoubert2017.lokacar.entities.Client;
-import com.example.jocelynjoubert2017.lokacar.entities.Vehicule;
+import com.example.Valewan.lokacar.dal.AppDataBase;
+import com.example.Valewan.lokacar.dal.dao.ClientDAO;
+import com.example.Valewan.lokacar.entities.Client;
+import com.example.Valewan.lokacar.entities.Vehicule;
 
 import java.util.ArrayList;
 import java.util.List;

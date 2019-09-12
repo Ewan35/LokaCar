@@ -1,4 +1,4 @@
-package com.example.jocelynjoubert2017.lokacar;
+package com.example.Valewan.lokacar;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,9 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
 
-import com.example.jocelynjoubert2017.lokacar.entities.Agence;
 import com.example.jocelynjoubert2017.lokacar.entities.Client;
-import com.example.jocelynjoubert2017.lokacar.entities.Gerant;
 import com.example.jocelynjoubert2017.lokacar.entities.Location;
 import com.example.jocelynjoubert2017.lokacar.entities.Marque;
 import com.example.jocelynjoubert2017.lokacar.entities.Modele;

@@ -1,4 +1,4 @@
-package com.example.jocelynjoubert2017.lokacar.entities;
+package com.example.Valewan.lokacar.entities;
 
 
 import android.arch.persistence.room.ColumnInfo;
@@ -18,7 +18,6 @@ import java.util.Date;
 @Entity(tableName = "locations",
         foreignKeys = {
                 @ForeignKey(entity = Vehicule.class, parentColumns = "immat", childColumns = "vehicule_id"),
-                @ForeignKey(entity = Agence.class, parentColumns = "id", childColumns = "agence_id"),
                 @ForeignKey(entity = Client.class, parentColumns = "id", childColumns = "client_id")
 
         })

@@ -1,10 +1,10 @@
-package com.example.jocelynjoubert2017.lokacar.dal.dao;
+package com.example.Valewan.lokacar.dal.dao;
 
 import android.arch.persistence.room.Dao;
 import android.arch.persistence.room.Query;
 
-import com.example.jocelynjoubert2017.lokacar.dal.GeneriqueDAO;
-import com.example.jocelynjoubert2017.lokacar.entities.Client;
+import com.example.Valewan.lokacar.dal.GeneriqueDAO;
+import com.example.Valewan.lokacar.entities.Client;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.example.jocelynjoubert2017.lokacar;
+package com.example.Valewan.lokacar;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,9 +14,9 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.EditText;
 
-import com.example.jocelynjoubert2017.lokacar.dal.AppDataBase;
-import com.example.jocelynjoubert2017.lokacar.dal.dao.VehiculeDAO;
-import com.example.jocelynjoubert2017.lokacar.entities.Vehicule;
+import com.example.Valewan.lokacar.dal.AppDataBase;
+import com.example.Valewan.lokacar.dal.dao.VehiculeDAO;
+import com.example.Valewan.lokacar.entities.Vehicule;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -88,7 +88,6 @@ public class ListeVoituresActivity extends AppCompatActivity implements Recycler
                         for (Vehicule v:listeVoitures) {
                             v.setModele(appDataBase.modeleDAO().selectById(v.getModeleId()));
                             v.setMarque(appDataBase.marqueDAO().selectById(v.getModele().getMarqueId()));
-                            v.setAgence(appDataBase.agenceDAO().selectById(v.getAgenceId()));
                         }
 
                         ListeVoituresActivity.this.runOnUiThread(new Runnable() {

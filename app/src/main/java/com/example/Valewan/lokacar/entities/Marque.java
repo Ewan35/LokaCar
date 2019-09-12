@@ -1,4 +1,4 @@
-package com.example.jocelynjoubert2017.lokacar.entities;
+package com.example.Valewan.lokacar.entities;
 
 
 import android.arch.persistence.room.Entity;

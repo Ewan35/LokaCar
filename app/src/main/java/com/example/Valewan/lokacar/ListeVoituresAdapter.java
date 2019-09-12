@@ -1,11 +1,11 @@
-package com.example.jocelynjoubert2017.lokacar;
+package com.example.Valewan.lokacar;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.jocelynjoubert2017.lokacar.entities.Vehicule;
+import com.example.Valewan.lokacar.entities.Vehicule;
 
 import java.util.List;
 
@@ -34,7 +34,6 @@ public class ListeVoituresAdapter extends RecyclerView.Adapter<VoitureViewHolder
     {
         holder.textViewMarque.setText(listeVoitures.get(position).getMarque().getNom());
         holder.textViewModele.setText(listeVoitures.get(position).getModele().getNom());
-        holder.textViewAgence.setText(listeVoitures.get(position).getAgence().getNom());
         holder.textViewDispo.setText(listeVoitures.get(position).getDispo());
         holder.textViewImmatriculation.setText(listeVoitures.get(position).getImmat());
     }
