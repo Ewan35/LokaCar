@@ -3,8 +3,7 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:background="#f7d794">
+        xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <TextView
         android:id="@+id/titre_client"
@@ -15,9 +14,19 @@
         android:layout_marginLeft="20dp"
         android:textSize="30dp"
         android:text="Clients"
-        android:textColor="#FFFFFF"
+        android:textColor="#000000"
         android:textStyle="bold"
         android:layout_marginTop="20dp"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/titre_client"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/plus"
+        android:background="@android:color/transparent"
+        android:onClick="boutonAjouterClient"/>
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/liste_clients"

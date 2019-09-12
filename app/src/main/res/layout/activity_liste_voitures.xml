@@ -3,8 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="#A7DBD8">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <ProgressBar
         android:id="@+id/progressBar"
@@ -32,7 +31,7 @@
         android:layout_marginLeft="20dp"
         android:textSize="30dp"
         android:text="Liste des voitures"
-        android:textColor="#FFFFFF"
+        android:textColor="#000000"
         android:textStyle="bold"
         android:layout_marginTop="20dp"/>
 
