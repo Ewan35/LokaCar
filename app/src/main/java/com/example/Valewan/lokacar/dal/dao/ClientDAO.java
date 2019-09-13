@@ -11,15 +11,12 @@ import java.util.List;
 @Dao
 public interface ClientDAO extends GeneriqueDAO<Client> {
 
-    // select all
     @Query("SELECT * FROM clients")
     public List<Client> getAll();
 
-    // select par id
     @Query("SELECT * FROM clients where id = :id")
     public Client selectById(int id);
 
-    // select par nom
     @Query("SELECT * FROM clients where nom LIKE :nom")
     public List<Client> selectByName(String nom);
 

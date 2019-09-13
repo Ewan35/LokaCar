@@ -12,15 +12,12 @@ import java.util.List;
 @Dao
 public interface MarqueDAO extends GeneriqueDAO<Marque> {
 
-    // select all
     @Query("SELECT * FROM marques")
     public List<Marque> getAll();
 
-    // Select par nom
     @Query("SELECT * FROM marques WHERE nom=:nom")
     public Marque selectById(String nom);
 
-    // Select des marque selon le nom
     @Query("SELECT * FROM Marques WHERE nom LIKE :nom")
     public List<Marque> selectAll(String nom);
 
